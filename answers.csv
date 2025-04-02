@@ -1,0 +1,2149 @@
+"```json
+{
+    ""ScenarioID"": ""S1"",
+    ""Scenario"": ""The processing center is located in the basement. A sewer system runs under the building. The walls of the room that houses the processing center are not reinforced."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T3"",
+            ""ThreatName"": ""Flooding"",
+            ""ThreatDescription"": ""Flooding of the rooms where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S2"",
+    ""Scenario"": ""Confidential documents are stored in an archive constantly protected by armed guards, with three levels of biometric protection. The room that houses the archive is reinforced and burglar-proof."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media and devices containing data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S3"",
+    ""Scenario"": ""The connection between the data center and the offices is made of fiber optics."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S4"",
+    ""Scenario"": ""The connection between the CED and the offices is made of optical fiber. The cable is laid inside protected and dedicated channels. Communication on the channel is protected by ciphers approved at the highest classification level compared to that of the transmitted data."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S5"",
+    ""Scenario"": ""The system is installed on the third floor of a building without any special security controls"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T3"",
+            ""ThreatName"": ""Flooding"",
+            ""ThreatDescription"": ""Flooding of the rooms where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S5"",
+    ""Scenario"": ""The system is installed on the third floor of a building without any special security controls"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S6"",
+    ""Scenario"": ""There are no fire protection systems installed on the site"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S7"",
+    ""Scenario"": ""A fire protection system with smoke detector and temperature control system is installed on the site"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S8"",
+    ""Scenario"": ""The site is equipped with a fire protection system based on Halon 1301 gas with smoke detector and a temperature control system based on a redundant air conditioner with humidity sensors. In addition, the system is connected to the nearest Fire Brigade station which is automatically contacted in the event of an alarm."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S9"",
+    ""Scenario"": ""A password is required to access the system"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S10"",
+    ""Scenario"": ""Anyone can access the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S11"",
+    ""Scenario"": ""Only those who have a password can access the system. The password must meet complexity requirements, is stored in a historical database and must be changed once every 90 days. The password is shared among members of the same office"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T21"",
+            ""ThreatName"": ""Masking"",
+            ""ThreatDescription"": ""Subject who provides a false identity (fis.log.) to the system in order to gain access""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S12"",
+    ""Scenario"": ""Only those who have a password can access the system. The password must meet complexity requirements, is stored in a historical database and must be changed once every 90 days. The access credentials are nominative and it is forbidden to reveal them to third parties"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S13"",
+    ""Scenario"": ""The system is installed in the highest-ranked operating mode, and all users can access all documents, regardless of their security clearance, role and need-to-know."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T23"",
+            ""ThreatName"": ""Unconditional access procedure"",
+            ""ThreatDescription"": ""program, used by system administrators/network administrators to recover a system from a software or hardware failure and regain access, that bypasses all system protections""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S14"",
+    ""Scenario"": ""The system is installed in the highest-ranking operating mode, and only authorized users can access documents."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S15"",
+    ""Scenario"": ""The system is installed in the highest-ranking operating mode, and only authorized users can access documents based on their security clearance level and need-to-know."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S16"",
+    ""Scenario"": ""No system logs are recorded"",
+    ""Threats"": []
+}
+```
+
+Since the scenario ""No system logs are recorded"" does not match any of the provided threats, no applicable threats have been identified."
+"```json
+{
+    ""ScenarioID"": ""S17"",
+    ""Scenario"": ""System logs are recorded. They are retained for at least five years, backed up periodically (at least once a year), and the following events are recorded: successful/denied system access, security policy changes, print jobs performed/stopped/failed, user creation/modification/addition, security group creation/modification/addition"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Subject who provides a false identity (fis.log.) to the system in order to gain access""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S18"",
+    ""Scenario"": ""System logs are recorded"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S19"",
+    ""Scenario"": ""There are no emergency plans"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T3"",
+            ""ThreatName"": ""Flooding"",
+            ""ThreatDescription"": ""Flooding of the rooms where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S19"",
+    ""Scenario"": ""There are no emergency plans"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S20"",
+    ""Scenario"": ""There are emergency plans"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S21"",
+    ""Scenario"": ""There are contingency plans that are periodically tested and evaluated to update them if necessary."",
+    ""Threats"": []
+}
+```
+
+### Explanation:
+The scenario describes the existence of periodic testing and evaluation of contingency plans, which is a best practice for ensuring system resilience and preparedness. None of the provided threats directly relate to or are enabled by this scenario. Therefore, no applicable threats were identified."
+"```json
+{
+    ""ScenarioID"": ""S22"",
+    ""Scenario"": ""There is no written procedure"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T23"",
+            ""ThreatName"": ""Unconditional access procedure"",
+            ""ThreatDescription"": ""program, used by system administrators/network administrators to recover a system from a software or hardware failure and regain access, that bypasses all system protections""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S23"",
+    ""Scenario"": ""There are written procedures"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S24"",
+    ""Scenario"": ""All procedures relating to the use and maintenance of the system and safety measures are reported in writing, appropriately labeled and registered, stored in the appropriate safety containers and are made available to authorized personnel. These procedures are also updated where necessary"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S25"",
+    ""Scenario"": ""Staff is not trained"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Entering incorrect information into a system by personnel authorized to access it""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S26"",
+    ""Scenario"": ""Staff is trained"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S27"",
+    ""Scenario"": ""There is a plan for training and periodic updating of personnel on security threats and the correct behavior to adopt in various circumstances in the event of security incidents. Furthermore, checks are carried out on the effectiveness of the training"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S28"",
+    ""Scenario"": ""The data is all contained in the same directory"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S28"",
+    ""Scenario"": ""The data is all contained in the same directory"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S29"",
+    ""Scenario"": ""The data is separated"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S30"",
+    ""Scenario"": ""The data is separated according to its classification level and work program. Each directory (and the files it contains) is associated with one or more users or work groups according to the mandatory access control, and can only be accessed by the corresponding users."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S31"",
+    ""Scenario"": ""There is no log of changes made to the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T26"",
+            ""ThreatName"": ""Unnoticed data theft"",
+            ""ThreatDescription"": ""Collection of information, even in small quantities, in a way that goes unnoticed""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S32"",
+    ""Scenario"": ""There is a log of changes made to the system"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S33"",
+    ""Scenario"": ""There is a log of the changes made to the system that reports: the date of the change, the reason, who made the change, who authorised the change, what was changed, signature of who made the change and who authorised the change"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S34"",
+    ""Scenario"": ""There is no register for access to restricted areas"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S35"",
+    ""Scenario"": ""There is a register for access to restricted areas"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S36"",
+    ""Scenario"": ""There is a log for access to restricted areas which reports: date and time of access, name of the person accessing, reason for access, who authorised access, date and time of exit, signature of the person accessing and of the person authorised access"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Entering incorrect information into a system by personnel authorized to access it""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S37"",
+    ""Scenario"": ""The computers are installed in 'open space' offices also open to the public"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T1"",
+            ""ThreatName"": ""Queuing access"",
+            ""ThreatDescription"": ""Illegitimate access to a system obtained by 'tailing', electronically or physically, an authorized party""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S38"",
+    ""Scenario"": ""The computers are installed in locked offices"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S39"",
+    ""Scenario"": ""The computers are installed in offices that are only accessible to personnel authorized to access the system, with the monitors not facing the door or windows."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S40"",
+    ""Scenario"": ""No data backups are made"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S40"",
+    ""Scenario"": ""No data backups are made"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S41"",
+    ""Scenario"": ""Periodic data backups are performed"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S41"",
+    ""Scenario"": ""Periodic data backups are performed"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S42"",
+    ""Scenario"": ""Periodic data backups are performed on a daily basis, in incremental mode, with rotation of the storage memories and relative conservation in special fireproof security containers and suitable for the highest classification level of the data contained therein. There are two copies of each backup, one of which is stored on site and the other at a secondary site, also approved at the same level as the main one and with the same conservation methods"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T26"",
+            ""ThreatName"": ""Unnoticed data theft"",
+            ""ThreatDescription"": ""Collection of information, even in small quantities, in a way that goes unnoticed""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S43"",
+    ""Scenario"": ""Anyone can connect any external drive to the system or their work computer"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media and devices containing data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S44"",
+    ""Scenario"": ""Is there any control over external drives connected to the system or your work computer?"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media and devices containing data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S45"",
+    ""Scenario"": ""You can connect to the system or to your work computer only and exclusively external drives, appropriately labelled and stored in specific security containers based on the highest classification level of the data contained in them, listed in the specific register of authorised media."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S45"",
+    ""Scenario"": ""You can connect to the system or to your work computer only and exclusively external drives, appropriately labelled and stored in specific security containers based on the highest classification level of the data contained in them, listed in the specific register of authorised media."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T13"",
+            ""ThreatName"": ""Destruction of the CED area"",
+            ""ThreatDescription"": ""Severe damage to equipment and stored data due to explosions, vandalism, natural disasters, etc.""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S46"",
+    ""Scenario"": ""There are no lightning protection measures"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T8"",
+            ""ThreatName"": ""Lightning strike"",
+            ""ThreatDescription"": ""Destruction of the system, or some of its parts, following a lightning strike""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S47"",
+    ""Scenario"": ""There are measures to protect against lightning"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T8"",
+            ""ThreatName"": ""Lightning strike"",
+            ""ThreatDescription"": ""Destruction of the system, or some of its parts, following a lightning strike""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S48"",
+    ""Scenario"": ""There are lightning protection measures such as: earthing, lightning rods, shielded and filtered electrical panels"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T8"",
+            ""ThreatName"": ""Lightning strike"",
+            ""ThreatDescription"": ""Destruction of the system, or some of its parts, following a lightning strike""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S49"",
+    ""Scenario"": ""Computers handle highly classified data but no TEMPEST protection measures are in place"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T18"",
+            ""ThreatName"": ""Interception and espionage"",
+            ""ThreatDescription"": ""Interception of electromagnetic emissions generated by electrical cables or monitors. Those who carry out espionage often do not know when useful information may transit, so they must collect large amounts of data and then search for items of interest""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S50"",
+    ""Scenario"": ""The computers handle highly classified data and TEMPEST protection measures are in place"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T18"",
+            ""ThreatName"": ""Interception and espionage"",
+            ""ThreatDescription"": ""Interception of electromagnetic emissions generated by electrical cables or monitors. Those who carry out espionage often do not know when useful information may transit, so they must collect large amounts of data and then search for items of interest""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S51"",
+    ""Scenario"": ""The computers process high-level classified data and TEMPEST protection measures are adopted in accordance with the results of the TEMPEST Zoning carried out"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T18"",
+            ""ThreatName"": ""Interception and espionage"",
+            ""ThreatDescription"": ""Interception of electromagnetic emissions generated by electrical cables or monitors. Those who carry out espionage often do not know when useful information may transit, so they must collect large amounts of data and then search for items of interest""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S52"",
+    ""Scenario"": ""There are no flood protection measures in place"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T3"",
+            ""ThreatName"": ""Flooding"",
+            ""ThreatDescription"": ""Flooding of the rooms where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S53"",
+    ""Scenario"": ""Sensors have been installed under the raised floor of the CED, with humidity detectors. The water system can be blocked both automatically and, as an alternative measure, manually. There are no pipes in the walls of the CED room and it was built far from the bathrooms. Finally, the CED is located on the first floor of the building"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T25"",
+            ""ThreatName"": ""Sabotage"",
+            ""ThreatDescription"": ""Interruption/modification of the operation of hardware/software devices which may lead to loss of confidentiality/integrity/availability of data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S54"",
+    ""Scenario"": ""Printed sheets are left unattended on the desk"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T9"",
+            ""ThreatName"": ""Searching through the garbage"",
+            ""ThreatDescription"": ""Search through the trash for useful information on paper, disks, tapes, etc. that have been thrown away in order to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S55"",
+    ""Scenario"": ""All printed documents are closed inside specific security containers, based on the highest classification level of the information contained therein, when not directly consulted by authorized personnel."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S56"",
+    ""Scenario"": ""Anyone can access the CED, without checks"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S57"",
+    ""Scenario"": ""To access the CED, you must be previously authorised. Access is via an electronically locked door that must be unlocked using your personal badge and the relevant access PIN."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Entering incorrect information into a system by personnel authorized to access it""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S58"",
+    ""Scenario"": ""There are no rules or procedures regarding copying digital media and prints."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S59"",
+    ""Scenario"": ""It is forbidden to make copies of digital media and printed documents"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S60"",
+    ""Scenario"": ""Visitors are not accompanied when authorized"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S61"",
+    ""Scenario"": ""Visitors must be authorized in advance to access and are accompanied, during their entire stay in the facility, by the designated personnel. During their stay, they will not be able to access classified information, unless it is provided for by a specific contract and, in this case, they will only be able to access information at the classification level for which they are authorized and for which they have a need to know."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S62"",
+    ""Scenario"": ""Server systems are placed on a table"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S63"",
+    ""Scenario"": ""Server systems are installed inside special racks and locked onto special containment supports. Furthermore, the racks are anchored to the ground"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S64"",
+    ""Scenario"": ""Any software can be installed on the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T5"",
+            ""ThreatName"": ""Trojan Horse Attack"",
+            ""ThreatDescription"": ""A program with apparently useful functions but which contains code aimed at damaging or destroying the system and/or tampering with or stealing data.""
+        }
+    ]
+}
+```"
+{
+    ""ScenarioID"": ""S64"",
+    ""Scenario"": ""Any software can be installed on the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T5"",
+            ""ThreatName"": ""Trojan Horse Attack"",
+            ""ThreatDescription"": ""A program with apparently useful functions but which contains code aimed at damaging or destroying the system and/or tampering with or stealing data.""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S65"",
+    ""Scenario"": ""Only the software authorized by the Security Manager may be installed on the system by the System Administrator only, after an appropriate security assessment has been carried out. Said software is also reported in the system configuration change log."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S66"",
+    ""Scenario"": ""There are no specific procedures for controlling the development of new software created directly by the company"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S67"",
+    ""Scenario"": ""All software produced internally by the company must comply with precise procedures relating to the tools and best security practices to be used for writing, checking, reviewing and testing the produced code."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S68"",
+    ""Scenario"": ""The system is put into operation and used as is, without any prior or subsequent checks."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S69"",
+    ""Scenario"": ""Before being put into operation, the system is checked and evaluated through vulnerability assessment and penetration testing tools. This activity is repeated on a periodic basis (at least once a year)"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S70"",
+    ""Scenario"": ""No security patches released by the manufacturer are ever applied to the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T5"",
+            ""ThreatName"": ""Trojan Horse Attack"",
+            ""ThreatDescription"": ""A program with apparently useful functions but which contains code aimed at damaging or destroying the system and/or tampering with or stealing data.""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S70"",
+    ""Scenario"": ""No security patches released by the manufacturer are ever applied to the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T6"",
+            ""ThreatName"": ""Computer virus attack"",
+            ""ThreatDescription"": ""Code that replicates itself by joining other programs, but can run autonomously. After becoming a guest inside another program, it installs itself in memory and generally attacks the system by destroying, modifying, or stealing the data it contains.""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S71"",
+    ""Scenario"": ""The system is continuously updated, applying the security patches released by the manufacturer, after a formal check of its functioning has been carried out. Each change is noted in the system configuration change log"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S72"",
+    ""Scenario"": ""There are no antivirus programs installed on the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T5"",
+            ""ThreatName"": ""Trojan Horse Attack"",
+            ""ThreatDescription"": ""A program with apparently useful functions but which contains code aimed at damaging or destroying the system and/or tampering with or stealing data.""
+        }
+    ]
+}
+```"
+{
+    ""ScenarioID"": ""S72"",
+    ""Scenario"": ""There are no antivirus programs installed on the system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T6"",
+            ""ThreatName"": ""Computer virus attack"",
+            ""ThreatDescription"": ""Code that replicates itself by joining other programs, but can run autonomously. After becoming a guest inside another program, it installs itself in memory and generally attacks the system by destroying, modifying, or stealing the data it contains.""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S73"",
+    ""Scenario"": ""A program for detecting computer viruses and malware is installed on the system, which is updated at least weekly, capable of recognizing the viral strain and the type of infection, proceeding to quarantine or delete the infected files."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T6"",
+            ""ThreatName"": ""Computer virus attack"",
+            ""ThreatDescription"": ""Code that replicates itself by joining other programs, but can run autonomously. After becoming a guest inside another program, it installs itself in memory and generally attacks the system by destroying, modifying, or stealing the data it contains.""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S74"",
+    ""Scenario"": ""The system is not equipped with UPS"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S75"",
+    ""Scenario"": ""The system is protected from power failures and surges by a UPS with voltage stabilizing function, with the ability to send a command to the servers connected to it to safely shut them down once a residual battery capacity of 30% has been reached."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S76"",
+    ""Scenario"": ""Data is saved on the system on a single disk"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S77"",
+    ""Scenario"": ""The system disks on which the data is saved are configured in RAID 6 mode with an additional spare disk, in order to guarantee data availability even in the event of failure of 3 disks."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S78"",
+    ""Scenario"": ""The staff are not given any specific instructions and are left to deal with their own complaints."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T14"",
+            ""ThreatName"": ""Accidental error"",
+            ""ThreatDescription"": ""Unwanted error caused by ignorance of the operating rules or by particular environmental conditions relating to the client components only""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S79"",
+    ""Scenario"": ""Staff are motivated to follow company policy and there is particular attention to maintaining a peaceful and safety-oriented work environment."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S80"",
+    ""Scenario"": ""There are no detection systems against night-time or unauthorized intrusions"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T26"",
+            ""ThreatName"": ""Unnoticed data theft"",
+            ""ThreatDescription"": ""Collection of information, even in small quantities, in a way that goes unnoticed""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S81"",
+    ""Scenario"": ""An alarm system is installed with dual technology sensors with infrared detection and heat and motion sensitive cameras. In the event of an alarm, the control panel contacts both the Security Manager and the nearest Carabinieri Station by telephone."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S82"",
+    ""Scenario"": ""The CED is installed inside a room with plasterboard walls, closed with a normal wooden door"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S83"",
+    ""Scenario"": ""The CED is installed in a room with certified earthquake-proof walls and capable of withstanding medium-sized explosions. This room is closed with a triple-combination armored door"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S84"",
+    ""Scenario"": ""The office windows are of the normal type, with transparent glass."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S85"",
+    ""Scenario"": ""The office windows are of the normal type, with transparent glass."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S86"",
+    ""Scenario"": ""Users are allowed to leave their workstations without having to take any special precautions."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S87"",
+    ""Scenario"": ""Staff are trained to ensure that, if they need to leave their workstation, they place work documents and digital media in the appropriate security containers and ensure that they lock their computer by logging out of their account."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S88"",
+    ""Scenario"": ""The waste material is sent directly to the landfill, without any control"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S89"",
+    ""Scenario"": ""Before being thrown away, printed documents are passed through a shredder corresponding to the category of the classification level of the information to be destroyed, while digital media are first overwritten 35 times and then demagnetized, finally mechanically destroyed."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T9"",
+            ""ThreatName"": ""Searching through the garbage"",
+            ""ThreatDescription"": ""Search through the trash for useful information on paper, disks, tapes, etc. that have been thrown away in order to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S90"",
+    ""Scenario"": ""Eating/drinking is permitted near the servers and terminals"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T26"",
+            ""ThreatName"": ""Unnoticed data theft"",
+            ""ThreatDescription"": ""Collection of information, even in small quantities, in a way that goes unnoticed""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S91"",
+    ""Scenario"": ""Eating/drinking near servers and terminals is prohibited"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S92"",
+    ""Scenario"": ""No maintenance is carried out on the premises and systems"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S92"",
+    ""Scenario"": ""No maintenance is carried out on the premises and systems"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S93"",
+    ""Scenario"": ""Regular inspections of the electrical distribution system and cables located under the raised floor, as well as the water system with maintenance against any leaks. Regular maintenance is also carried out on the air conditioning system, with replacement of refrigerants, and cleaning of air vents. Finally, regular inspections are carried out to identify possible fire risks."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S93"",
+    ""Scenario"": ""Regular inspections of the electrical distribution system and cables located under the raised floor, as well as the water system with maintenance against any leaks. Regular maintenance is also carried out on the air conditioning system, with replacement of refrigerants, and cleaning of air vents. Finally, regular inspections are carried out to identify possible fire risks."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T5"",
+            ""ThreatName"": ""Sabotage"",
+            ""ThreatDescription"": ""Interruption/modification of the operation of hardware/software devices which may lead to loss of confidentiality/integrity/availability of data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S94"",
+    ""Scenario"": ""Only available personnel are employed"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S95"",
+    ""Scenario"": ""The continuous availability of technical and support staff is arranged, with rotation and, where necessary, 24-hour supervision for critical systems."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S96"",
+    ""Scenario"": ""There are no special procedures during the processing of sensitive data"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S97"",
+    ""Scenario"": ""Specific procedures have been put in place to safely carry out the processing of sensitive data."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S98"",
+    ""Scenario"": ""Cabinets and desks remain open even after working hours and non-essential systems are left on when unattended"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media and devices containing data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S99"",
+    ""Scenario"": ""Cabinets and desks are locked after working hours and non-essential systems are turned off when unattended"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S100"",
+    ""Scenario"": ""Emergency procedures exist but they are known only to managers"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T26"",
+            ""ThreatName"": ""Unnoticed data theft"",
+            ""ThreatDescription"": ""Collection of information, even in small quantities, in a way that goes unnoticed""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S101"",
+    ""Scenario"": ""There is an emergency procedures manual that is provided to all personnel and summary tables of emergency procedures have been placed (including emergency telephone numbers and those of management staff to contact)"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S102"",
+    ""Scenario"": ""Users can also use passwords made up of identical characters or numbers to access the system, and it is also possible to use empty passwords or passwords of the type 'password' or 'admin'"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T7"",
+            ""ThreatName"": ""Logic bombs"",
+            ""ThreatDescription"": ""Portions of code inserted into the system that, triggered by specific events, perform destructive actions""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S102"",
+    ""Scenario"": ""Users can also use passwords made up of identical characters or numbers to access the system, and it is also possible to use empty passwords or passwords of the type 'password' or 'admin'"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Entering incorrect information into a system by personnel authorized to access it""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S103"",
+    ""Scenario"": ""Users must use passwords of at least 12 characters to access the system, which must contain at least one number, one special character and one capital letter. Furthermore, it is not possible to enter more than two consecutive identical numbers or letters and it is not possible to enter empty passwords or passwords vulnerable to dictionary-based attacks"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S104"",
+    ""Scenario"": ""To access the system, users can continue to enter their password until they are granted access."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S105"",
+    ""Scenario"": ""If a user enters the wrong credentials more than three times, the related account will be blocked and the System Administrator will have to be asked to unblock it."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Entering incorrect information into a system by personnel authorized to access it""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S106"",
+    ""Scenario"": ""The user can continue to use the password provided to him for the first access to the system"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S107"",
+    ""Scenario"": ""The system forces the user to change the password received from the System Administrator at the first login"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S108"",
+    ""Scenario"": ""Only authorized users can open the cabinets containing classified documents and no tracking is required."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S109"",
+    ""Scenario"": ""Only authorized users can open the cabinets containing classified documents and it is mandatory to report, on the appropriate sheet on the outside of the cabinet, who opened it, on what date and at what time with a signature. The same registration occurs for the closing of the cabinet"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T17"",
+            ""ThreatName"": ""Entering false information"",
+            ""ThreatDescription"": ""Entering incorrect information into a system by personnel authorized to access it""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S110"",
+    ""Scenario"": ""Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S111"",
+    ""Scenario"": ""Before handing over a computer or server to the equipment maintenance technicians, all the mass storage devices installed in them are removed and stored in the appropriate security containers based on the maximum classification level of the data saved on them."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S112"",
+    ""Scenario"": ""The printers dedicated to printing classified documents are positioned in the corridors to reduce the generation of dust inside the data processing center and the offices containing the IT equipment. These corridors are located outside the restricted areas"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S113"",
+    ""Scenario"": ""In the corridors of the reserved area, printers dedicated to printing classified documents have been installed, in order to reduce the generation of dust inside the data processing center and the offices containing the IT equipment."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S114"",
+    ""Scenario"": ""Classified documents are produced without specifying the classification level of the information they contain for security reasons."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S115"",
+    ""Scenario"": ""All classified documents are labeled with the classification level of the data they contain."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S116"",
+    ""Scenario"": ""There are several locations where classified data is processed but only the main one has been approved"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media and devices containing data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S117"",
+    ""Scenario"": ""All locations where the processing of classified data is carried out have been approved in accordance with the maximum classification level of the data itself."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S118"",
+    ""Scenario"": ""There are several locations where classified data is processed but only the main one has a security organization"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S119"",
+    ""Scenario"": ""All locations where classified data is processed have a security organization, with remote location managers reporting to the head office manager."",
+    ""Threats"": []
+}
+```
+
+The scenario provided does not explicitly mention any of the threats listed. There is no indication of specific risks such as power supply issues, flooding, lightning strikes, or other environmental factors that would align with the provided threat descriptions."
+"```json
+{
+    ""ScenarioID"": ""S120"",
+    ""Scenario"": ""In case of emergency, the staff immediately abandons their positions and leaves the documents where they are to get to safety as soon as possible."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S121"",
+    ""Scenario"": ""In case of emergency, within the limits of personal safety, users must block access to the PC and must lock the documents in their respective cabinets or security containers or take out as many as possible, monitoring them and delivering them to the Security Manager who will carry out the reporting and move them to another suitable location of the company or deliver them to the nearest Carabinieri Station."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S122"",
+    ""Scenario"": ""The headquarters is protected by a video surveillance system"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S123"",
+    ""Scenario"": ""There are armed guards present"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S124"",
+    ""Scenario"": ""The external perimeter is protected by a net"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S125"",
+    ""Scenario"": ""There is a fire prevention system"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S126"",
+    ""Scenario"": ""There is an access control system"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S127"",
+    ""Scenario"": ""Are there any procedures for installing new hardware/software?"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S128"",
+    ""Scenario"": ""Classified documents are kept"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T3"",
+            ""ThreatName"": ""Flooding"",
+            ""ThreatDescription"": ""Flooding of the rooms where the systems and/or storage media are located""
+        },
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        },
+        {
+            ""ThreatID"": ""T16"",
+            ""ThreatName"": ""Fire"",
+            ""ThreatDescription"": ""Fire in the premises where the systems and/or storage media are located""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S129"",
+    ""Scenario"": ""There are emergency procedures"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S130"",
+    ""Scenario"": ""Authorized visitors can, in principle, access restricted areas"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S131"",
+    ""Scenario"": ""Authorized technicians may be given the equipment used for processing classified data"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S132"",
+    ""Scenario"": ""The doors of the reserved areas are closed in the absence of staff but the cabinets are left open"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media and devices containing data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S133"",
+    ""Scenario"": ""A periodic check is carried out, with unpredictable timing, to verify the closure of all cabinets and safes containing classified material and of the access doors to restricted areas"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S134"",
+    ""Scenario"": ""The keys to the reserved areas are given to those who need them, without having to verify their authorization."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S135"",
+    ""Scenario"": ""The keys to the reserved areas can only be delivered to those who are authorised and after completing the appropriate register required by current legislation."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S136"",
+    ""Scenario"": ""The combinations of the safety cabinets are written on them in case you forget them."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S137"",
+    ""Scenario"": ""The System Administrator's access password is inserted in a sealed envelope and signed by the Security Officer and is kept inside a security safe, appropriate to the classification level of the information contained in the system to which it refers, inside a reserved area. A second copy is kept in a similar safe inside another reserved area"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S138"",
+    ""Scenario"": ""If the envelope containing the System Administrator password is opened, the password remains the same and is only changed when decided by the person who used it."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S139"",
+    ""Scenario"": ""All external accesses to the reserved areas are controlled by a video surveillance system with cables that are contained in special TEMPEST channels with anti-burglary measures. The images taken are recorded and stored for at least two years and treated in compliance with current legislation"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T18"",
+            ""ThreatName"": ""Interception and espionage"",
+            ""ThreatDescription"": ""Interception of electromagnetic emissions generated by electrical cables or monitors. Those who carry out espionage often do not know when useful information may transit, so they must collect large amounts of data and then search for items of interest""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S140"",
+    ""Scenario"": ""The internal and external lighting of the reserved areas is turned off in the event of absence of personnel to promote energy saving"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S141"",
+    ""Scenario"": ""All accesses to the air conditioning system pipes are closed by a resistant anti-throw net and with an alarmed sensor against unauthorised opening and removal and are of such a size as to prevent the passage of humans or animals."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S142"",
+    ""Scenario"": ""Only personnel authorized to handle classified information may access the Restricted Areas where such information is handled and/or stored."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S143"",
+    ""Scenario"": ""The Restricted Areas are protected by appropriate security measures (such as, for example, armoured doors, anti-intrusion alarm systems, safes and security containers for the storage of classified information)"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S144"",
+    ""Scenario"": ""Authorized personnel accessing the Reserved Areas are recorded in special registers"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S145"",
+    ""Scenario"": ""Authorized personnel who are granted access to classified information are recorded in special registers and are prohibited from taking such information outside the Restricted Areas."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S146"",
+    ""Scenario"": ""Authorized personnel are periodically screened to ensure they still need to access classified information."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S147"",
+    ""Scenario"": ""All authorised personnel are periodically trained in safety and a high level of attention is paid to safety issues."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S148"",
+    ""Scenario"": ""Inside the Reserved Areas there are no devices for reproducing paper documents and the prints produced by the PC used for the maximum level CONFIDENTIAL information are controlled"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S149"",
+    ""Scenario"": ""It is forbidden to introduce electronic devices such as memory media into the Reserved Areas unless previously authorised and registered, while the introduction of other devices such as voice recorders, cameras, video cameras, smartphones, tablets and PCs is always forbidden."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S150"",
+    ""Scenario"": ""The company headquarters is adjacent to other industrial plants, separated from them by fences and with the walls of the building surrounded by parking areas for employees' cars on all sides, with a closed entrance gate (it is opened only during office hours for the time strictly necessary for the entry/exit of vehicles and personnel on foot) and a video surveillance system."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S151"",
+    ""Scenario"": ""The plant is manned during opening hours, with surveillance and control service entrusted to the company's internal staff. During the company's hours and days of closure, surveillance is ensured by an external Surveillance Company with which the company is connected by a direct tele-radio system, which comes into operation when the alarm system detects a possible intrusion. The system is equipped with a device with a telephone dialer connected to the control panel of the aforementioned Surveillance Company, to the Security Officer and to the Law Enforcement, and makes a series of cascade calls"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T20"",
+            ""ThreatName"": ""Service interruption"",
+            ""ThreatDescription"": ""Techniques used to stress the response capabilities of a system in order to inhibit the correct functioning of its services to users""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S152"",
+    ""Scenario"": ""At the end of an event that requires the implementation of emergency procedures, the Security Officer will carry out an inspection and draw up an inventory of all the material and documentation, stored in the Restricted Areas, to ensure that nothing has been lost and/or compromised."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        },
+        {
+            ""ThreatID"": ""T15"",
+            ""ThreatName"": ""Physical theft of media"",
+            ""ThreatDescription"": ""Theft of storage media which may lead to data compromise""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S153"",
+    ""Scenario"": ""At the end of an event that requires the implementation of emergency procedures, the Security Officer orders the immediate resumption of activities, without verifying the consistency of the classified material"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S154"",
+    ""Scenario"": ""The company headquarters is adjacent to other industrial plants, separated from them by fences, which in some places are interrupted due to landslides, and with the walls of the building surrounded by parking areas for employees' cars on all sides, with an entrance gate that is normally open and not controlled during working hours."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T9"",
+            ""ThreatName"": ""Searching through the garbage"",
+            ""ThreatDescription"": ""Search through the trash for useful information on paper, disks, etc., in order to gain access to a system or steal information""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S155"",
+    ""Scenario"": ""It is the responsibility of the Security Officer (and those designated) to ensure that all security procedures are applied, which are described for this purpose in the 'Internal Security Regulations' of each location, where the security measures adopted are indicated in detail."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S156"",
+    ""Scenario"": ""It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \""Internal Safety Regulations\"" of each location, where the safety measures adopted are indicated in detail."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S157"",
+    ""Scenario"": ""Self-inspections are carried out annually by the Headquarters Security Officer assisted by the CIS Security Officer and the COMSEC Security Officer, in order to check the maintenance and observance of the security regulations and procedures in force."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S158"",
+    ""Scenario"": ""Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S159"",
+    ""Scenario"": ""Users do not have access to configuration/administration procedures and management tools"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S160"",
+    ""Scenario"": ""Users have access to configuration/administration procedures and management tools"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S161"",
+    ""Scenario"": ""The data relating to \""user authentication\"" are protected in accordance with current security regulations"",
+    ""Threats"": []
+}
+```
+
+### Explanation:
+No threats from the provided list directly relate to the scenario where ""data relating to user authentication"" are protected according to current security regulations. The scenario focuses on the protection of user authentication data, and none of the listed threats specifically address this type of protection or lack thereof."
+"```json
+{
+    ""ScenarioID"": ""S162"",
+    ""Scenario"": ""The data relating to ?user authentication? are available to anyone who requests them."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T7"",
+            ""ThreatName"": ""Logic bombs"",
+            ""ThreatDescription"": ""Portions of code inserted into the system that, triggered by specific events, perform destructive actions""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S163"",
+    ""Scenario"": ""The CIS System services are managed based on user access rights, identification and assignment of access rights are managed by the System Administrator"",
+    ""Threats"": []
+}
+```
+
+Based on the scenario provided, there is no threat that matches from the given list."
+"```json
+{
+    ""ScenarioID"": ""S164"",
+    ""Scenario"": ""The CIS System services are managed based on user access rights, identification and assignment of access rights are managed directly by the system users."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T21"",
+            ""ThreatName"": ""Masking"",
+            ""ThreatDescription"": ""Subject who provides a false identity (fis.log.) to the system in order to gain access""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S165"",
+    ""Scenario"": ""The analysis of audit data will be possible only by the CIS Security Officer and his security staff."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S166"",
+    ""Scenario"": ""Audit data analysis is available to all users"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S167"",
+    ""Scenario"": ""The access and exit of employees and visitors to the CIS System are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to the system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is retained for a period of not less than two years"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T27"",
+            ""ThreatName"": ""Violation of login procedures"",
+            ""ThreatDescription"": ""Using software applications designed specifically, or through repeated attempts, to allow an unauthorized individual to gain access to the system""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S168"",
+    ""Scenario"": ""The access and exit of employees and visitors to the CIS System are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S169"",
+    ""Scenario"": ""At least once every six months, the consistency of the users registered in the CIS System with those actually authorised and necessary is verified. During this check, it is also verified that the hardware and software configuration of the CIS System corresponds to that approved and that there are no events, deducible from the system logs, that could indicate the emergence of any problems or risks to security. In general: - The CIS Security Officer at the headquarters carries out a periodic check on the accounting records, in particular those relating to unauthorised attempts to gain access to the CIS System or its resources; - The CIS Security Officer at the headquarters carries out periodic checks both to verify the integrity of the mass storage media and the correct configuration and connection of the devices and equipment of the CIS System; - The System Administrator periodically carries out checks on the System HW to verify the integrity of the components. The auditing services, in particular: - allow the analysis of the online records relating to the previous month; - allow the analysis of the records provided by accounting relating to the previous two years. The data to be displayed when a previously defined alarm occurs or during audit analysis are: - User identification/authentication; - Identity of the workstation from which access is made; - Date and time of the event; - Type of event and its outcome"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S170"",
+    ""Scenario"": ""At least once every six months, the consistency of the users registered in the CIS System with those actually authorised and necessary is verified. During this check, only formal checks are carried out based on the registered documentation"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S171"",
+    ""Scenario"": ""At least once every six months the consistency of the users registered in the CIS System is verified"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S172"",
+    ""Scenario"": ""All storage media are properly protected to prevent disclosure of information during maintenance work on the CIS System workstations."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S173"",
+    ""Scenario"": ""All storage media are properly protected to prevent disclosure of information during maintenance work on the CIS System workstations with at-rest encryption based on certified algorithms."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S174"",
+    ""Scenario"": ""The storage media do not have any special protections that prevent the disclosure of information during maintenance work on the CIS System workstations."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T25"",
+            ""ThreatName"": ""Sabotage"",
+            ""ThreatDescription"": ""Interruption/modification of the operation of hardware/software devices which may lead to loss of confidentiality/integrity/availability of data""
+        },
+        {
+            ""ThreatID"": ""T12"",
+            ""ThreatName"": ""Accidental damage to media"",
+            ""ThreatDescription"": ""Unintended damage to storage media that can lead to data loss""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S175"",
+    ""Scenario"": ""The System Administrator is informed of any malfunction of all the HW components of the System (PC, server, switch, etc.)"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S176"",
+    ""Scenario"": ""In case of any malfunction of all the HW components of the System (PC, server, switch, etc.) users contact the company in charge of maintenance directly without informing anyone else."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S177"",
+    ""Scenario"": ""The IT system is in primary PC/secondary PC architecture and is composed of two ?All in One? type computers, completed by a connection switch between the two stations and between these and a multifunction printer. All the devices are TEMPEST Class B certified"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S178"",
+    ""Scenario"": ""The IT system is in primary PC/secondary PC architecture and is composed of two ?All in One? type computers, completed by a connection switch between the two stations and between these and a multifunction printer. Both the PC and the printer are TEMPEST Class B devices"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S179"",
+    ""Scenario"": ""Software updates concern only the antivirus, and are done online."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S180"",
+    ""Scenario"": ""Software updates concern only the antivirus, and are performed offline."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S181"",
+    ""Scenario"": ""Software updates concern both the operating system and the applications (for both only for critical and security components and not for new features) and the antivirus, and are carried out in offline mode."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S182"",
+    ""Scenario"": ""The responsibility of the security organization is to verify that the CIS System maintains its security features over time, possibly adapting the system itself to new emerging threats and vulnerabilities, subject to approval of the changes by DIS-UCSe according to the National Certification Scheme"",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S183"",
+    ""Scenario"": ""The security organization's responsibility is to verify that the CIS System maintains its functionality characteristics over time, regardless of the effectiveness of its security features."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S184"",
+    ""Scenario"": ""All vehicles and people, entering and leaving the premises, are subject to checks by security personnel. Furthermore, security personnel have the legal authority to subject all people and vehicles circulating within the premises to checks."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S185"",
+    ""Scenario"": ""There is freedom of access and exit from the premises by vehicles and people. Furthermore, people can oppose any requests for control both for themselves and for the vehicle used to access the premises"",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T26"",
+            ""ThreatName"": ""Unnoticed data theft"",
+            ""ThreatDescription"": ""Collection of information, even in small quantities, in a way that goes unnoticed""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S186"",
+    ""Scenario"": ""Since the maximum classification level of the information processed is CONFIDENTIAL, pursuant to the PCM-ANS Directive 5/2006 of 3 February 2006, containing Provisions on the Security of Systems for the Automatic Processing of Classified Data, in particular with regard to Annex C (?Documentation for small and medium-sized systems in local networks?) and Annex E (?Documentation for software development systems installed in reserved EAD areas?), and having regard to the Prime Ministerial Decree of 6 November 2015 no. 5, integrated with the amendments of the Prime Ministerial Decree of 2 October 2017 no. 3, which contains the ?Provisions for the administrative protection of State secrets and classified information?, it is not necessary to adopt TEMPEST protection measures for the equipment and communication networks used in the CIS system in question."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S187"",
+    ""Scenario"": ""The maximum classification level of the information processed is SECRET but it is not considered necessary to adopt TEMPEST protection measures for the equipment and communication networks used in the CIS system in question."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T18"",
+            ""ThreatName"": ""Interception and espionage"",
+            ""ThreatDescription"": ""Interception of electromagnetic emissions generated by electrical cables or monitors. Those who carry out espionage often do not know when useful information may transit, so they must collect large amounts of data and then search for items of interest""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S188"",
+    ""Scenario"": ""The communication channels between the servers and between these and the clients are protected via VPN, both for connections via LAN and via WAN, and the system that creates said VPN has been approved by the competent Authority for the processing of data up to the National CONFIDENTIAL level."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S189"",
+    ""Scenario"": ""The communication channels between the servers and between them and the clients are protected via VPN generated by a third-party cloud service."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S190"",
+    ""Scenario"": ""The server components of the CIS System are installed separately from servers of other systems, in special lockable racks, within a controlled area."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S191"",
+    ""Scenario"": ""The server components of the CIS System are installed in the company's data processing center, together with the other data processing systems."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S192"",
+    ""Scenario"": ""The management of the users is entrusted to the System Administrator only, under the supervision of the CIS Security Officer, and they are configured via a specific workstation directly connected to the CIS System."",
+    ""Threats"": []
+}
+```"
+"```json
+{
+    ""ScenarioID"": ""S193"",
+    ""Scenario"": ""The management of the utilities is entrusted to the staff of the parent company, who makes the necessary changes remotely by connecting from another country, communicating the list of added/modified/suspended and cancelled utilities to the CIS Security Officer on a monthly basis."",
+    ""Threats"": [
+        {
+            ""ThreatID"": ""T2"",
+            ""ThreatName"": ""Power supply"",
+            ""ThreatDescription"": ""Power failure to devices which may cause loss or corruption of processed data""
+        }
+    ]
+}
+```"
